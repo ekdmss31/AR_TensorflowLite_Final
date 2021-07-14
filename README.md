@@ -1,4 +1,4 @@
-# TensorFlow Lite Object Detection Android Demo
+# Android studio with TensorflowLite, AR
 
 ### Overview
 
