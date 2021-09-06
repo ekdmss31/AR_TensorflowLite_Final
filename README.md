@@ -57,7 +57,8 @@ Tensorflow Lite는 Tensorflow의 경량화 버전으로, 휴대기기, 내장형
 ①주변 사물로 공부하기
 - 딥러닝은 향상된 속도로 학습시키기 위해 GPU를 이용한 Tensorflow-gpu 1.15.0 버전을 사용하고 개발 언어는 python 3.7.0 버전, NVDIA GeForce GTX 1080 Ti와 호환되는 GPU 개발 툴로 Cude 10.0 버전과 Cudnn 7.6.4 버전을 사용하여 딥러닝 실행환경을 구성한다.
 이러한 딥러닝과 android studio에서 제공하는 TTS, STT를 연동하여 사용자가 주변 사물을 통해 학습할 수 있게 한다.
-- 이러한 딥러닝과 android studio에서 제공하는 TTS, STT를 연동하여 사용자가 주변 사물을 통해 학습할 수 있게 한다.
+- 이러한 딥러닝과 android studio에서 제공하는 TTS, STT를 연동하여 사용자가 주변 사물을 통해 학습할 수 있게 한다.<br>
+
 ②낱말카드 AR로 공부하기 
 - 개발언어는 C#이며 개발도구는 Unity 3D 2021.1.3버전, Vuforia SDK 9-8-8버전을 사용한다. 이에 맞추어 Android studio는 4.1.3버전을 사용한다.
 - 마커 위에 3D객체를 띄우기 위해 Vuforia package를 Unity에 적용한다. Unity프로젝트를 어플의 버튼을 누르면 실행될수 있게 하기 위해서 Android studio와 연동했다. Unity에서 프로젝트를 Export하고 Export된 파일을 Android stufio 프로젝트 파일의 같은 위치에 넣어준다. Android studio를 실행한 후 build. gradle에 Unity 및 Vuforia사용을 위한 설정을 추가한다.
